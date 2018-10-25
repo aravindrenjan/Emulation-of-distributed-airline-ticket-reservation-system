@@ -15,7 +15,7 @@ def Main():
             data = s.recv(1024)
             servers = pickle.loads(data)
             
-            #connection tries to various servers
+            #connection 'try's to various servers
             try:
                 s2.connect(('127.0.0.1',servers[0]))
             except:
