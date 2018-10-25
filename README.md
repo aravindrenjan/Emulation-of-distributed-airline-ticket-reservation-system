@@ -1,2 +1,3 @@
 # Emulation-of-distributed-airline-ticket-reservation-system
-This emulation of a distributed system is created using Python socket programming.
+Developed as a mini project to emulate a distributed client server ticket reservation sysytem.
+Pyhton (3.6) socket programming used to create multiple sockets as servers and clients.
